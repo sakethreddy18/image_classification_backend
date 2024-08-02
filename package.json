@@ -1,0 +1,43 @@
+{
+  "name": "truecyte_web_backend",
+  "version": "1.0.0",
+  "description": "Truecyte NodeJs Express backend",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leapvision/Truecyte_Web_Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leapvision/Truecyte_Web_Backend/issues"
+  },
+  "homepage": "https://github.com/leapvision/Truecyte_Web_Backend#readme",
+  "dependencies": {
+    "app-root-path": "^3.1.0",
+    "await-to-js": "^3.0.0",
+    "bcrypt": "^5.1.1",
+    "bcrypt-promise": "^2.0.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "express-list-endpoints": "^6.0.0",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.1.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.3",
+    "parse-error": "^0.2.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
